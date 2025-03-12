@@ -1,0 +1,53 @@
+ [
+    {
+      "id": 1,
+      "title": "Christmas Charity Drive",
+      "img" : "https://res.cloudinary.com/dxqv8mbpg/image/upload/f_auto,q_auto/v1/event-images/event_1738152998033?_a=BAMCkGfi0",
+      "date": "Saturday, March 15, 2025",
+      "time" :"5:30 AM IST",
+      "location": "San Francisco",
+      "description": "Christmas Charity Drive located in SF",
+      "category": "Charity"
+    },
+    {
+      "id": 2,
+      "title": "Eid-ul-Fitr",
+      "img" : "https://res.cloudinary.com/dxqv8mbpg/image/upload/f_auto,q_auto/v1/event-images/event_1737999482266?_a=BAMCkGfi0",
+      "date": "Sunday, March 30, 2025",
+      "time" :"5:30 AM IST",
+      "location": "NYC",
+      "description": "Eid celebrations at mosque",
+       "category": "Religious"
+    },
+    {
+        "id": 3,
+        "title": "Mahavir Jayanti",
+        "img" : "https://res.cloudinary.com/dxqv8mbpg/image/upload/f_auto,q_auto/v1/event-images/event_1738151964428?_a=BAMCkGfi0",
+        "date": "Thursday, April 10, 2025 - 12 Saturday",
+        "time" :"5:30 AM IST",
+        "location": "Seattle",
+        "description": "Jayanti Celebration at grace temple",
+       "category": "Religious"
+      },
+      {
+        "id": 4,
+        "title": "Good Friday Service",
+        "img" : "https://res.cloudinary.com/dxqv8mbpg/image/upload/f_auto,q_auto/v1/event-images/event_1738152151720?_a=BAMCkGfi0",
+        "date": "Friday, April 18, 2025 - 19 Saturday",
+        "time" :"5:30 AM IST",
+        "location": "NYC",
+        "description": "Service organised at nyc center",
+       "category": "Religious"
+      },
+      {
+        "id": 5,
+        "title": "Easter Sunday Service",
+        "img" : "https://res.cloudinary.com/dxqv8mbpg/image/upload/f_auto,q_auto/v1/event-images/event_1738152742578?_a=BAMCkGfi0",
+        "date": "Sunday, April 20, 2025",
+        "time" :"5:30 AM IST",
+        "location": "Connecticut",
+        "description": "Sunday service organised at stars hollow",
+       "category": "Social"
+      }
+  ]
+  
