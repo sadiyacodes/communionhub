@@ -3,7 +3,6 @@ import { ExploreButton } from "./ExploreBtn";
 import { HeroText } from "./HeroText";
 
 import { BlurFade } from "@/components/magicui/blur-fade";
-// import { GlobeBg } from "./GlobeComp";
 
 import { Globe } from "@/components/magicui/globe";
 
