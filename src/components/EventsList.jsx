@@ -5,7 +5,6 @@ import { Plus } from "lucide-react";
 
 const EventsList = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [showForm, setShowForm] = useState(false); // State to toggle form
 
   const handleFilterChange = (category) => {
     setSelectedCategory(category);
@@ -16,12 +15,12 @@ const EventsList = () => {
       ? EventsData
       : EventsData.filter((event) => event.category === selectedCategory);
 
-      const scrollToForm = () => {
-        const formSection = document.getElementById("create-event-form");
-        if (formSection) {
-          formSection.scrollIntoView({ behavior: "smooth" });
-        }
-      };
+  const scrollToForm = () => {
+    const formSection = document.getElementById("create-event-form");
+    if (formSection) {
+      formSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="w-full py-12 md:py-20 lg:py-24" id="events">
       <div className="container px-6 md:px-12">
@@ -46,13 +45,13 @@ const EventsList = () => {
 
           {/* Create Event Button */}
           <a href="#create-event-form" className="flex">
-          <button
-          onClick={scrollToForm} 
-            className="bg-gray-900 text-white px-5 py-2 rounded-md font-medium transition hover:bg-gray-700 flex items-center justify-center gap-2 group"
-          >
-            Create Event
-            <Plus className="transition-transform duration-300 ease-in-out group-hover:rotate-45" />
-          </button>
+            <button
+              onClick={scrollToForm}
+              className="bg-gray-900 text-white px-5 py-2 rounded-md font-medium transition hover:bg-gray-700 flex items-center justify-center gap-2 group"
+            >
+              Create Event
+              <Plus className="transition-transform duration-300 ease-in-out group-hover:rotate-45" />
+            </button>
           </a>
         </div>
 
@@ -62,8 +61,6 @@ const EventsList = () => {
             <EventCard key={index} event={event} />
           ))}
         </div>
-
-       
       </div>
     </section>
   );
